@@ -1,0 +1,27 @@
+slurmstepd-abakus21: error: Unable to create TMPDIR [/tmp/user/24151]: Permission denied
+slurmstepd-abakus21: error: Setting TMPDIR to /tmp
+======================================================================
+3LC MODEL COMPARISON & DATA DEBUGGING
+======================================================================
+
+Initializing 3LC Run...
+
+Creating 3LC Base Table...
+Lade Basis-Datensatz von e-ViL/data/esnlive.csv...
+Erstelle Basis-Tabelle:   0%|          | 0/2973 [00:00<?, ?it/s]Erstelle Basis-Tabelle: 100%|██████████| 2973/2973 [00:00<00:00, 32635.59it/s]
+
+Uploading Model Predictions...
+Lade Vorhersagen für Modell 'qwen' aus results_qwen.csv...
+Lade Vorhersagen für Modell 'gemma' aus results_gemma.csv...
+Lade Vorhersagen für Modell 'molmo' aus results_molmo.csv...
+Lade Vorhersagen für Modell 'llavaov' aus results_llavaov.csv...
+
+Übertrage alle Vorhersagen ins 3LC Dashboard...
+Fertig! Die Spalten sind jetzt im Dashboard sichtbar.
+
+======================================================================
+✓ UPLOAD COMPLETE!
+Results available in 3LC Dashboard: Visual_Entailment_3LC/compare_4_models_final
+Sentry is attempting to send 6 pending events
+Waiting up to 2 seconds
+Press Ctrl-C to quit

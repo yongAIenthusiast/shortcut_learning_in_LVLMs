@@ -1,0 +1,19 @@
+slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24151]: Permission denied
+slurmstepd-abakus12: error: Setting TMPDIR to /tmp
+Lade Datensatz von: gt_captions_esnlive.csv
+Nutze Gerät: cuda
+Lade Jina-CLIP Modell...
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+/home/z/zhangyon/BIG/hf_cache/hub/modules/transformers_modules/jinaai/jina_hyphen_clip_hyphen_implementation/39e6a55ae971b59bea6e44675d237c99762e7ee2/modeling_clip.py:140: UserWarning: Flash attention is not installed. Check https://github.com/Dao-AILab/flash-attention?tab=readme-ov-file#installation-and-features for installation instructions, disabling
+  warnings.warn(
+/home/z/zhangyon/BIG/hf_cache/hub/modules/transformers_modules/jinaai/jina_hyphen_clip_hyphen_implementation/39e6a55ae971b59bea6e44675d237c99762e7ee2/modeling_clip.py:175: UserWarning: xFormers is not installed. Check https://github.com/facebookresearch/xformers?tab=readme-ov-file#installing-xformers for installation instructions, disabling
+  warnings.warn(
+Starte Evaluierung für 991 Einträge...
+  0%|          | 0/991 [00:00<?, ?it/s]  3%|▎         | 28/991 [00:00<00:03, 278.84it/s]  6%|▋         | 62/991 [00:00<00:02, 311.97it/s] 10%|▉         | 98/991 [00:00<00:02, 332.39it/s] 14%|█▎        | 134/991 [00:00<00:02, 341.32it/s] 17%|█▋        | 172/991 [00:00<00:02, 353.30it/s] 21%|██        | 208/991 [00:00<00:02, 351.34it/s] 25%|██▍       | 244/991 [00:00<00:02, 346.67it/s] 28%|██▊       | 279/991 [00:00<00:02, 346.71it/s] 32%|███▏      | 315/991 [00:00<00:01, 349.41it/s] 35%|███▌      | 350/991 [00:01<00:01, 342.69it/s] 39%|███▉      | 385/991 [00:01<00:01, 340.91it/s] 42%|████▏     | 421/991 [00:01<00:01, 345.63it/s] 46%|████▌     | 456/991 [00:01<00:01, 341.97it/s] 50%|████▉     | 493/991 [00:01<00:01, 349.39it/s] 53%|█████▎    | 528/991 [00:01<00:01, 345.92it/s] 57%|█████▋    | 565/991 [00:01<00:01, 348.43it/s] 61%|██████    | 600/991 [00:01<00:01, 345.02it/s] 64%|██████▍   | 636/991 [00:01<00:01, 348.76it/s] 68%|██████▊   | 671/991 [00:01<00:00, 348.30it/s] 71%|███████▏  | 708/991 [00:02<00:00, 350.01it/s] 75%|███████▌  | 744/991 [00:02<00:00, 351.35it/s] 79%|███████▊  | 780/991 [00:02<00:00, 343.10it/s] 82%|████████▏ | 815/991 [00:02<00:00, 344.06it/s] 86%|████████▌ | 850/991 [00:02<00:00, 342.91it/s] 89%|████████▉ | 885/991 [00:02<00:00, 342.01it/s] 93%|█████████▎| 920/991 [00:02<00:00, 341.68it/s] 96%|█████████▋| 955/991 [00:02<00:00, 337.08it/s]100%|██████████| 991/991 [00:02<00:00, 342.86it/s]100%|██████████| 991/991 [00:02<00:00, 343.72it/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+
+==================================================
+Erfolgreich bewertet: 991/991 Captions
+Durchschnittlicher CLIPScore: 0.9861
+Ergebnisse gespeichert unter: gt_captions_esnlive_score.csv
