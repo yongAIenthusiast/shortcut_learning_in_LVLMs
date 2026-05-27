@@ -10,7 +10,7 @@ Tasks requiring the integration of textual and visual information are now ubiqui
 ![Alternative Text](images/2.png)
 ![Alternative Text](images/3.png)
 
-## Repository Structure
+## Readme Structure(to be added)
 
 * Hardware 
 * Environment Setup and In-stallation (export file, Dependency ect.)
