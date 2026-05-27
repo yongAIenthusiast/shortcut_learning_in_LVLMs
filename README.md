@@ -12,9 +12,9 @@ Tasks requiring the integration of textual and visual information are now ubiqui
 
 ## Repository Structure
 
-*Hardware 
-*Environment Setup and In-stallation (export file, Dependency ect.)
-*Data cleaning: url from 3lc
-*Model Evaluation Pipeline 
-*Caption Metric
+* Hardware 
+* Environment Setup and In-stallation (export file, Dependency ect.)
+* Data cleaning: url from 3lc
+* Model Evaluation Pipeline 
+* Caption Metric
 
