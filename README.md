@@ -37,6 +37,7 @@ conda env create -f env_molmo_and_clipscore.yml
 
 # Activate the environment
 conda activate molmo_and_clipscore
+```
 
 ### 🌐 Environment 2: transformer530
 This environment uses a standard Python virtual environment setup.
@@ -51,3 +52,6 @@ source transformer530/bin/activate  # On Windows use: venv\Scripts\activate
 
 # 3. Install the required packages
 pip install -r env_other_models.txt
+```
+
+
