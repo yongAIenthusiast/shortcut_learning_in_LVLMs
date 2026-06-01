@@ -17,7 +17,7 @@ lowest performance decrease (Drop range 0%-13%), better than zero-shot cot_zero_
 
 ## ⚡ Quick Requirements
 
-**Python Versions Required:**
+**🐍 Python Versions Required:**
 - **Environment 1 (Molmo + CLIPScore):** Python 3.11
 - **Environment 2 (Other Models: Qwen, Gemma, LLaVA-OV):** Python 3.11+ (recommend 3.11 for consistency)
 
@@ -53,7 +53,7 @@ Ensure you have [Miniconda/Anaconda](https://docs.conda.io/) or `pip` installed 
 
 ---
 
-### 🐍 Environment 1: molmo_and_clipscore
+### 🌐 Environment 1: molmo_and_clipscore
 Handles Molmo 4B model evaluation and CLIPScore caption evaluation metric.
 
 **Setup via Conda (Recommended):**
