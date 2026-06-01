@@ -18,3 +18,36 @@ Tasks requiring the integration of textual and visual information are now ubiqui
 * Model Evaluation Pipeline 
 * Caption Metric
 
+## Environment Setup
+
+This project requires two distinct environments depending on the task you want to execute (e.g., Environment 1 for run of model Molmo and script of CLIPScore Metric, Environment 2 for other Models). 
+
+### Prerequisites
+Ensure you have [Miniconda/Anaconda](https://docs.conda.io/) or `pip` installed on your system.
+
+---
+
+### 🐍 Environment 1: transformers4571
+This environment handles data preparation and initial feature extraction.
+
+**Option A: Setup via Conda (Recommended)**
+```bash
+# Create the environment from the provided yml file
+conda env create -f env_molmo_and_clipscore.yml
+
+# Activate the environment
+conda activate molmo_and_clipscore
+
+### 🌐 Environment 2: transformer530
+This environment uses a standard Python virtual environment setup.
+
+**Setup via Pip:**
+```bash
+# 1. Create a new virtual environment
+python -m venv transformer530
+
+# 2. Activate the environment
+source transformer530/bin/activate  # On Windows use: venv\Scripts\activate
+
+# 3. Install the required packages
+pip install -r env_other_models.txt
