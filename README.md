@@ -156,7 +156,7 @@ Four strategies are evaluated to mitigate shortcut learning:
    - Computes accuracy and metrics
    - Saves predictions to CSV
 
-2. **Caption Generation** (`src/caption_prompt_other_models.py`):
+2. **Caption Generation** (`src/caption_molmo2.py` / src/caption_prompt_other_models.py`):
    - For caption-enhanced strategy: generates detailed image descriptions
    - Evaluates using CLIPScore metric (image-caption alignment)
    - Used as intermediate step before VE classification
