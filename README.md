@@ -1,6 +1,6 @@
 # Investigating Shortcut Learning in Vision–Language Models for Visual Entailment 
 
-This repository contains the program code and project framework for the paper "Investigating Shortcut Learning in Vision–Language Models for Visual Entailment". 
+This repository contains the program code and project framework for the paper [Investigating Shortcut Learning in Vision–Language Models for Visual Entailment](https://drive.google.com/file/d/1Pij8tMneRdJF32FJ5YG2hu_MEatMot1r/view?usp=sharing). 
 The project evaluates how modern Large Vision-Language Models (LVLMs) process adversarial text modifications (tautologies) when performing Visual Entailment (VE) tasks, examining whether classifications are driven by superficial text-based shortcuts learning or genuine cross-modal grounding. 
 
 ## Abstract
